@@ -21,6 +21,10 @@
     .navbar {
         display: block;
     }   
+    
+    .seccion-horizontal .tarjeta{
+        column-gap: .5rem;
+    }
 
     .seccion-horizontal .tarjeta__imagen {
         height: 4.58rem;
@@ -28,6 +32,7 @@
  
     .seccion-horizontal .tarjeta__titulo {
         font: 700 14px/20px Open Sans, sans-serif;
+        align-self: center;
     }
 
     .seccion-vertical .tarjeta {
@@ -49,7 +54,10 @@
         display: none;
     }
 
-   
+    .menu-lateral{
+        width: 208px;
+
+    }
     .navbar {
         display: none;
     }
@@ -80,6 +88,8 @@
         display: none;
     }
 
-    
+    .menu-lateral{
+        width: 228px;
+    }
     
 }
